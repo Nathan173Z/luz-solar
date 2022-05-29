@@ -41,9 +41,9 @@ export default function SolarSystem() {
     <div>
       <h1>Geração de Energia Solar </h1>
       <h2>Hora do dia: {hour}h </h2>
-      {isActive ? <Sun size={80} color="#ffdd00" weight="fill" /> :<MoonStars size={80} color="#00065c" weight="fill" />}
+      {isActive ? <Sun size={96} color="#ffdd00" weight="fill" /> :<MoonStars size={96} color="#00065c" weight="fill" />}
       <div>
-      <HouseLine size={96} color="#545454" weight="duotone" />
+      <HouseLine size={400} color="#545454" weight="duotone" />
         <p>Quantidade de energia gerada no dia: {energy.toFixed(2)} kw/h</p>
       </div>
     </div>
